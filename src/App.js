@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import Main from "./views/Main";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            LawnStarter
-          </p>
-        </header>
-      </div>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route exact path="/" component={Main} />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
