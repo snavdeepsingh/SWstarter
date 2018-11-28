@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was created with [Create React App](https://github.com/facebook/create-react-app) and then ejected.
 
 ## Available Scripts
@@ -27,6 +26,3 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](#deployment) for more information.
-=======
-# SWstartrer
->>>>>>> 3f5da6f4091e0a96be039edcf9f95eb07a722a11
