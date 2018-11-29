@@ -1,0 +1,32 @@
+.SEARCH {
+    width: 61px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .SearchButton-Disabled {
+    width: 350px;
+    height: 34px;
+    border-radius: 20px;
+    background-color:#c4c4c4;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .SearchButton-abled {
+    width: 350px;
+    height: 34px;
+    border-radius: 20px;
+    background-color:#0ab463;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  

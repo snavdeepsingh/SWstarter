@@ -1,0 +1,65 @@
+
+
+.title {
+    width: 100%;
+    height: 22px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+.DetailsBG {
+    width: 804px;
+    height: 537px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(132, 132, 132, 0.75);
+    background-color: #ffffff;
+    margin-top: 80px;
+    margin-left: 318px;
+    position:relative;
+  }
+
+.sub-title {
+    height: 22px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 82px;
+    margin-left: 30px;
+}
+
+  .BACK-TO-SEARCH {
+    width: 132px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Rectangle-22 {
+    width: 187px;
+    height: 34px;
+    border-radius: 17px;
+    background-color: #0ab463;
+    margin-left: 30px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+  }

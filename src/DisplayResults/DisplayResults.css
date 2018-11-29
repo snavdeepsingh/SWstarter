@@ -1,0 +1,39 @@
+.row {
+    height: 62px;
+}
+
+.Display-name {
+height: 20px;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #000000;
+margin-left:18px;
+margin-right: 230px;
+float: left;
+}
+
+.SEE-DETAILS {
+    width: 94px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Rectangle-21 {
+    width: 134px;
+    height: 34px;
+    border-radius: 17px;
+    background-color: #0ab463;
+  }
+  
