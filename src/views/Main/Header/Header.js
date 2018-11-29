@@ -4,8 +4,10 @@ import './Header.css';
 export default class Header extends Component {
     render() {
       return(
-        <div>
-          <h1>Header</h1>
+        <div className='SWStarter '>
+          <header className='header'>
+            <h1>SWStarter</h1>
+          </header>
         </div>
       ) 
     }

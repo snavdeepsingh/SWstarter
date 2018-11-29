@@ -10,3 +10,11 @@
     letter-spacing: normal;
     color: #0ab463;
   }
+
+  .header {
+    text-align: center;
+    width: 1440px;
+    height: 50px;
+    box-shadow: 0 2px 0 0 var(--white);
+    background-color: #ffffff; 
+  }
