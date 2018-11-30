@@ -11,7 +11,7 @@ function MatchesBG(props) {
             <ul >
               {props.people.map((people, i) => {
                 console.log('DisplayResults',people.name)
-                return <DisplayResults key={i} name={people.name ? people.name : people.title}/>
+                return <DisplayResults key={i} onClick={()=> props.OnSeeDetailsClicked(i)} name={people.name ? people.name : people.title}/>
               })}
             </ul>
          
@@ -29,6 +29,18 @@ function MatchesBG(props) {
       people: state.people,
     }
   }
+
+  function mapDispatchToProps(dispatch){
+    return {
+      OnSeeDetailsClicked: (i) => {
+        console.log('see details clicked', i);
+        const action = {type: 'SEE_DETAILS', index: i}
+        dispatch(action);
+      }
+    }
+  }
+
+
   
 
-  export default connect(mapStateToProps)(MatchesBG);
+  export default connect(mapStateToProps, mapDispatchToProps)(MatchesBG);

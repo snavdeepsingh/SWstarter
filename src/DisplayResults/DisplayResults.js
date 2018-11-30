@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './DisplayResults.css';
 
 
@@ -8,7 +9,7 @@ import './DisplayResults.css';
         <div className='row'>
           <div className='col-sm-12'>
           <h1 className='Display-name' >{props.name}</h1>
-          <button className='SEE-DETAILS Rectangle-21' >SEE DETAILS</button>
+          <button className='Rectangle-21' {...props} ><Link className='SEE-DETAILS' to='/character' >SEE DETAILS</Link></button>
           <hr style={{clear:'both', margin:'18px'}}/>
           </div>
         </div>

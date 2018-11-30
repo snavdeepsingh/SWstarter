@@ -4,6 +4,7 @@ const initialState = {
     people : [],
     inputSearch : '',
     Option: '',
+    index: [],
 };
 
 const reducer = (state = initialState, action) => {
@@ -16,6 +17,8 @@ const reducer = (state = initialState, action) => {
         return Object.assign({}, state, {people: action.people})
         case 'OPTION_CHANGE':
         return Object.assign({}, state, {Option: action.Option})
+        case 'SEE_DETAILS':
+        return Object.assign({}, state, {index: action.index})
         default:
         return state;
     }

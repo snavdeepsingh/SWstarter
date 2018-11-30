@@ -1,5 +1,6 @@
 import React from 'react';
 import './CharacterDetails.css';
+import { Link } from 'react-router-dom';
 
 const CharacterDetails = () => {
       return(
@@ -20,7 +21,7 @@ const CharacterDetails = () => {
             </div>
           </div>
           </div>
-          <button className='Rectangle-22 BACK-TO-SEARCH' >BACK TO SEARCH</button>
+          <button className='Rectangle-22' > <Link className='BACK-TO-SEARCH' to='/' >BACK TO SEARCH</Link></button>
         </div>
       )
   };
