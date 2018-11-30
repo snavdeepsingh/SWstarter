@@ -11,6 +11,7 @@
     letter-spacing: normal;
     color: #000000;
     padding: 15px;
+    
   }
 .MatchesBG {
     width: 582px;
@@ -21,8 +22,11 @@
     margin-top: 80px;
     margin-left: 170px;
     text-align: center;
+    overflow: scroll;
   }
-
+.ResultList {
+  overflow: scroll;
+}
 
 
 .There-are-zero-matches-Use-the-form-to-search-for {

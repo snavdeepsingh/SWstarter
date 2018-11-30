@@ -1,5 +1,6 @@
-.row {
+.ResultsDiv {
     height: 62px;
+    position: relative;
 }
 
 .Display-name {
@@ -12,8 +13,6 @@ font-stretch: normal;
 line-height: normal;
 letter-spacing: normal;
 color: #000000;
-margin-left:18px;
-margin-right: 230px;
 float: left;
 }
 
@@ -35,5 +34,7 @@ float: left;
     height: 34px;
     border-radius: 17px;
     background-color: #0ab463;
+    float: right;
+    margin-top: -13px;
   }
   
