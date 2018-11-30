@@ -2,7 +2,6 @@ import { createStore } from 'redux';
 
 const initialState = {
     people : [],
-    films : [],
     inputSearch : '',
     Option: '',
 };

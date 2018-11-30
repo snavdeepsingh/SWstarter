@@ -14,7 +14,7 @@ import API from '../utils/API';
           <input  className='Ellipse-2 People' name='radio' type="radio"  onChange={(ev)=>props.handleOptionChange(ev)} checked={props.Option === 'people'} value="people" /><strong>People</strong> 
           <input className='Ellipse-2 Movies' name='radio' type="radio" value="movies" onChange={(ev)=>props.handleOptionChange(ev)} checked={props.Option === 'movies'} /><strong>Movies</strong><br></br>
           <input value = {props.inputSearch} onChange={(e)=>props.inputChange(e,radioOption)} className='Rectangle eg-Chewbacca-Yoda-Boba-Fett' type="text" placeholder="e.g. Chewbacca, Yoda, Boba Fett" />
-          <Button purpose='SEARCH' isInput={false} />
+          <Button purpose='SEARCH' isInput={props.inputSearch ? true : false} />
           </form>
          
         </div>
