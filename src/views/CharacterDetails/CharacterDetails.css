@@ -1,4 +1,15 @@
 
+.DetailsBG {
+  width: 804px;
+  height: 537px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(132, 132, 132, 0.75);
+  background-color: #ffffff;
+  margin-top: 80px;
+  margin-left: 318px;
+  position:relative;
+  vertical-align: 30px;
+}
 
 .title {
     width: 100%;
@@ -15,16 +26,7 @@
     margin-left: 30px;
   }
 
-.DetailsBG {
-    width: 804px;
-    height: 537px;
-    border-radius: 4px;
-    box-shadow: 0 1px 2px 0 rgba(132, 132, 132, 0.75);
-    background-color: #ffffff;
-    margin-top: 80px;
-    margin-left: 318px;
-    position:relative;
-  }
+
 
 .sub-title {
     height: 22px;
@@ -38,6 +40,34 @@
     color: #000000;
     margin-top: 82px;
     margin-left: 30px;
+}
+
+.Opening-Crawl {
+  width: 220px;
+  height: 325px;
+  margin-left: 30px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.Detail_Character {
+  width: 200px;
+  height: 101px;
+  margin-left: 30px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
 }
 
   .BACK-TO-SEARCH {
